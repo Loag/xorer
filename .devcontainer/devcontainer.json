@@ -15,5 +15,6 @@
         "mshr-h.VerilogHDL"
       ]
     }
-  }
+  },
+  "postCreateCommand": "chmod +x .devcontainer/postCreate.sh && .devcontainer/postCreate.sh"
 }
