@@ -1,0 +1,19 @@
+{
+  "name": "xorer-dev",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/loag/verilog-feature/verilog:latest": {}
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "telemetry.telemetryLevel": "off"
+      },
+      "extensions": [
+        "PKief.material-icon-theme",
+        "enkia.tokyo-night",
+        "mshr-h.VerilogHDL"
+      ]
+    }
+  }
+}
